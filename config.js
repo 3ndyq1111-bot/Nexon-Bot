@@ -3,8 +3,8 @@ import chalk from 'chalk';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
 
-global.botnumber = '+1 (562) 796-0361';
-global.confirmCode = 'NEXONB';
+global.botnumber = '15627960361';
+global.confirmCode = '';
 global.nomebot = 'nexon-bot';
 global.packname = 'nexon-bot';
 global.author = 'Endy';
@@ -16,8 +16,8 @@ global.wait = 'ⓘ 𝐂𝐚𝐫𝐢𝐜𝐚𝐦𝐞𝐧𝐭𝐨 ...';
 
 global.owner = [
   ['6285148177865', 'endy', true],
-  ['xxxxxxxxxx'],
-  ['xxxxxxxxxx'],
+  ['212644391140', 'mia', true], 
+  ['212642043720', 'cristian', true],
   ['xxxxxxxxxx'],
   ['xxxxxxxxxx'],
   ['xxxxxxxxxx'],
@@ -78,3 +78,4 @@ watchFile(file, () => {
   console.log(chalk.redBright("🔄 Config aggiornato: 'config.js'"));
   import(`${file}?update=${Date.now()}`);
 });
+  
